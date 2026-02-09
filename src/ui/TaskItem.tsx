@@ -39,7 +39,7 @@ export const TasksItem = ({ task, isSelected, onTaskSelected }: Props) => {
           <input type="checkbox" />
         </div>
         <div>
-          Дата создания задачи:{' '}
+          Дата создания этой классной задачи:{' '}
           {new Date(task.attributes.addedAt).toLocaleDateString()}
         </div>
       </li>

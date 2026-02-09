@@ -1,0 +1,39 @@
+  /* <li className="todo-item"
+
+  style= {
+          {
+          backgroundColor: bgColor[task.attributes.priority],
+              border: isSelected ? '3px solid blue': 'none',
+      }
+  } */
+
+  .task {
+      border: 1px solid yellowgreen;
+      margin-bottom: 5px;
+  }
+
+  .selected {
+      border: 3px solid blue;
+  }
+
+  /* const bgColor = ['#ffffff', '#ffd7b5', '#ffb38a', '#ff9248', '#ff6700']; */
+
+  .bgColorLight {
+      background-color: #ffffff;
+  }
+
+  .bgColorLight2 {
+      background-color: #ffd7b5;
+  }
+
+  .bgColorMiddle {
+      background-color: #ffb38a;
+  }
+
+  .bgColorDark {
+      background-color: #ff9248;
+  }
+
+  .bgColorDark2 {
+      background-color: #ff6700;
+  }
